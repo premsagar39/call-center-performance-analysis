@@ -129,14 +129,6 @@ Enhance marketing strategies
 
 Make data-driven decisions
 
-## 🚀 Future Enhancements
-
-Convert dashboard into Power BI Interactive Report
-
-Perform predictive analysis using Python (Scikit-learn)
-
-Create automated reporting system
-
 ## 👤 Author
 
 Prem Sagar
