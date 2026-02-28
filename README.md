@@ -2,7 +2,7 @@
 ## 📊 Sales & Marketing Call Center Analysis
 Built a comprehensive Sales & Marketing Call Center Analysis project using Excel to analyze customer interactions, agent performance, sales conversion, and revenue trends. The project focuses on extracting actionable insights to improve call center efficiency and business growth.
 
-# 🔍 Project Objective
+##  🔍 Project Objective
 To analyze call center performance metrics and identify patterns in:
 
 Call volume trends
@@ -15,7 +15,7 @@ Customer response behavior
 
 Revenue performance
 
-# 🛠 Tools & Technologies Used
+## 🛠 Tools & Technologies Used
 
 Microsoft Excel (.xlsm)
 
@@ -29,7 +29,7 @@ Data Cleaning & Preprocessing
 
 KPI Dashboard Creation
 
-# 📈 Key Insights Generated
+## 📈 Key Insights Generated
 
 Identified top-performing agents based on conversion rate
 
@@ -41,7 +41,7 @@ Evaluated customer follow-up impact on sales
 
 Tracked revenue contribution by campaign and agent
 
-# 📊 Dashboard Features
+## 📊 Dashboard Features
 
 Interactive KPI Cards (Total Calls, Sales, Revenue, Conversion %)
 
@@ -53,7 +53,7 @@ Campaign-wise Sales Breakdown
 
 Visual charts for better business decision-making
 
-# 🎯 Business Objective
+## 🎯 Business Objective
 
 Analyze total call volume and sales performance
 
@@ -65,7 +65,7 @@ Evaluate campaign effectiveness
 
 Track performance trends over time
 
-# 📂 Dataset Description
+## 📂 Dataset Description
 
 The dataset contains call center operational data including:
 
@@ -83,7 +83,7 @@ Marketing Campaign Details
 
 Customer Interaction Metrics
 
-# 📊 Key Performance Indicators (KPIs)
+## 📊 Key Performance Indicators (KPIs)
 
 📞 Total Calls
 
@@ -105,7 +105,7 @@ Customer Interaction Metrics
 ✔ Campaign-wise Revenue Breakdown
 ✔ Visual Charts for Decision Making
 
-# 🔎 Key Insights
+## 🔎 Key Insights
 
 Identified top-performing agents based on sales conversion rate
 
@@ -115,7 +115,7 @@ Measured effectiveness of marketing campaigns
 
 Analyzed revenue contribution by different agents
 
-# 💡 Business Impact
+## 💡 Business Impact
 
 This analysis helps management to:
 
@@ -129,7 +129,7 @@ Enhance marketing strategies
 
 Make data-driven decisions
 
-# 🚀 Future Enhancements
+## 🚀 Future Enhancements
 
 Convert dashboard into Power BI Interactive Report
 
@@ -137,7 +137,7 @@ Perform predictive analysis using Python (Scikit-learn)
 
 Create automated reporting system
 
-# 👤 Author
+## 👤 Author
 
 Prem Sagar
 Aspiring Data Analyst
