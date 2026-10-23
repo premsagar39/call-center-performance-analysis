@@ -12,7 +12,7 @@ Excel analysis of 200,000 call records from 2024, covering outcomes, abandonment
 - There are 44,644 abandoned records, or 22.32% of all calls.
 - Long Wait Time is recorded on 42,160 abandoned calls: 94.44% of abandoned records.
 
-The compact blue/orange dashboard opens at 100% zoom. It combines top-five agent volumes plus the remaining agents, an outcome doughnut, stacked product outcomes, abandonment-reason bars and a monthly call trend with highlighted minimum/maximum points. The reason distribution suggests investigating queue access using actual waiting-time and routing data.
+The dashboard opens at 100% zoom. It combines top-five agent volumes plus the remaining agents, an outcome doughnut, stacked product outcomes, abandonment-reason bars and a monthly call trend with highlighted minimum/maximum points. The reason distribution suggests investigating queue access using actual waiting-time and routing data.
 
 ## Workbook
 
@@ -32,4 +32,4 @@ The public workbook excludes customer names, age, gender, state and income. Reco
 
 Open in Excel with Automatic calculation. Append operational rows inside **CallData**, retaining headers and numeric dates. Extend lists or calendar for new agents, products or years. Weeks start on Monday; growth comparisons exclude partial weeks. There is no external-file refresh connection.
 
-Source values, metric formulas, chart caches, denominators, report reconciliations and saved 100% zoom were checked. Desktop Excel recalculation has not been independently verified.
+Source values, metric formulas, chart caches, denominators, report reconciliations and saved 100% zoom were checked. Both the complete workbook and its charts were opened in Desktop Excel without a recovery warning.
