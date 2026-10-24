@@ -1,6 +1,6 @@
 # Call Center Operations Dashboard
 
-Excel analysis of 200,000 call records from 2024, covering outcomes, abandonment, discussed products and agent workload.
+Excel analysis of 200,000 call records from 2024, with native PivotTable analysis and connected Month, Agent and Outcome slicers, alongside outcomes, abandonment, discussed products and agent workload.
 
 ![Call Center Operations dashboard](dashboard.png)
 
@@ -14,11 +14,17 @@ Excel analysis of 200,000 call records from 2024, covering outcomes, abandonment
 
 The dashboard opens at 100% zoom. It combines top-five agent volumes plus the remaining agents, an outcome doughnut, stacked product outcomes, abandonment-reason bars and a monthly call trend with highlighted minimum/maximum points. The reason distribution suggests investigating queue access using actual waiting-time and routing data.
 
+## Interactive analysis
+
+**Call Explorer** contains a native PivotTable and PivotChart sharing one cache. Month, Agent and Outcome slicers filter this view together. Call volume uses **Count of RecordNo**, so every source row counts once. Clear a slicer with its filter icon or use PivotTable Analyze → Clear → Clear Filters to reset all three. The separate **Call Review** dashboard retains its original month selector.
+
+![Call outcome explorer](explorer.png)
+
 ## Workbook
 
 **Call Review** has a month selector. **Daily Report** has an independent month selector. **Period Analysis** contains weekly through annual summaries. **Call Metrics** contains calculations, **Data Quality** contains reconciliation checks, and **Dataset** contains the operational records.
 
-Calculations use COUNTIFS, SUMIFS, AVERAGEIFS, IF, INDEX/MATCH and date functions. All five dashboard charts are native and editable. The monthly trend always shows 2024; the dashboard selector updates KPIs, outcomes, products, reasons and agent volumes.
+Calculations use COUNTIFS, SUMIFS, AVERAGEIFS, IF, INDEX/MATCH and date functions. The five Call Review charts and the additional Call Explorer PivotChart are native and editable. The monthly trend always shows 2024; the dashboard selector updates KPIs, outcomes, products, reasons and agent volumes.
 
 ## Definitions
 
@@ -30,6 +36,6 @@ The public workbook excludes customer names, age, gender, state and income. Reco
 
 ## Use
 
-Open in Excel with Automatic calculation. Append operational rows inside **CallData**, retaining headers and numeric dates. Extend lists or calendar for new agents, products or years. Weeks start on Monday; growth comparisons exclude partial weeks. There is no external-file refresh connection.
+Open in Excel with Automatic calculation. Append operational rows inside **CallData**, retaining headers and numeric dates. Month is derived from Date using TEXT(Date,"yyyy-mm"). Use Data → Refresh All after appending rows to rebuild the PivotTable cache and slicer items. Extend the separate formula-report lists or calendar for new agents, products or years. Weeks start on Monday; growth comparisons exclude partial weeks. There is no external-file refresh connection.
 
-Source values, metric formulas, chart caches, denominators, report reconciliations and saved 100% zoom were checked. Both the complete workbook and its charts were opened in Desktop Excel without a recovery warning.
+Native slicer combinations were checked against source totals. Source values, metric formulas, chart caches, denominators, report reconciliations and saved 100% zoom were checked. Both the complete workbook and its charts were opened in Desktop Excel without a recovery warning.
